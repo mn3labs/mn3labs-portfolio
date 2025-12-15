@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MN3 Labs – À propos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="bg-body">
+    <!-- Navbar (copie la même que sur index.html) -->
+    <!-- ... -->
+
+    <main class="py-5">
+      <div class="container">
+        <!-- Présentation générale -->
+        <section class="mb-5">
+          <p class="text-accent text-uppercase small mb-1">À propos</p>
+          <h1 class="text-white fw-bold mb-3">MN3 Labs</h1>
+          <p class="text-muted">
+            MN3 Labs est mon laboratoire personnel dédié à la sécurité
+            applicative, au pentest et à l’apprentissage offensif. Je construis
+            des projets web, puis j’essaie de les attaquer pour mieux comprendre
+            les failles et les protections.
+          </p>
+        </section>
+
+        <!-- Contexte & objectifs de SecureAuth -->
+        <section class="glass-card p-4 p-lg-5 mb-4">
+          <p class="text-accent text-uppercase small mb-2">
+            Contexte &amp; objectifs – SecureAuth
+          </p>
+          <h2 class="h4 text-white fw-semibold mb-3">
+            Pourquoi j’ai créé SecureAuth
+          </h2>
+          <p class="text-muted">
+            SecureAuth est un projet d’authentification que j’ai développé pour
+            travailler les bases de la sécurité web côté serveur&nbsp;: gestion
+            des utilisateurs, stockage sécurisé des mots de passe et protections
+            contre des attaques courantes.
+          </p>
+          <p class="text-muted">
+            L’objectif principal est d’avoir un exemple concret à présenter dans
+            mon portfolio de futur pentester, et une base technique que je peux
+            ensuite analyser, tester et améliorer.
+          </p>
+
+          <h3 class="h5 text-white fw-semibold mt-4 mb-2">
+            Objectifs techniques
+          </h3>
+          <ul class="text-muted small project-list">
+            <li>Utiliser PHP natif et MySQL avec PDO et requêtes préparées</li>
+            <li>
+              Implémenter un stockage sécurisé avec <code>password_hash</code>
+            </li>
+            <li>Comprendre et mettre en place une protection CSRF</li>
+            <li>Expérimenter un rate limiting simple contre le brute force</li>
+            <li>
+              Journaliser les tentatives de connexion pour la détection
+              d’attaques
+            </li>
+            <li>
+              Gérer les sessions et le changement de mot de passe proprement
+            </li>
+          </ul>
+
+          <h3 class="h5 text-white fw-semibold mt-4 mb-2">
+            Ce que j’ai appris
+          </h3>
+          <p class="text-muted small mb-0">
+            Ce projet m’a permis de lier développement web et sécurité&nbsp;: je
+            vois mieux comment une mauvaise implémentation peut être exploitée
+            et comment renforcer progressivement une application existante.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer (même que les autres pages) -->
+    <!-- ... -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

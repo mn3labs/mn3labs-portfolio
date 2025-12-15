@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MN3 Labs – Security & Pentest Lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Styles custom -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="bg-body">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-3">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+          <span class="logo-pill">MN3</span> Labs
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="skills.html">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <main class="hero-section d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-7">
+            <div class="glass-card p-4 p-lg-5">
+              <p class="text-accent mb-2 text-uppercase small">
+                Security & Pentest Portfolio
+              </p>
+              <h1 class="display-4 fw-bold text-white mb-3">
+                MN3 Labs<br />
+                <span class="gradient-text"
+                  >Web Security & Offensive Testing</span
+                >
+              </h1>
+              <p class="lead text-muted mb-4">
+                Laboratoire personnel dédié à la sécurité applicative, aux tests
+                d’intrusion et à la construction de projets web sécurisés.
+              </p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="projects.html" class="btn btn-primary btn-lg px-4">
+                  Voir les projets sécurité
+                </a>
+                <a href="about.html" class="btn btn-outline-light btn-lg px-4">
+                  À propos de MN3 Labs
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="glass-card p-4 p-lg-5 text-center">
+              <p class="text-accent mb-3">Focus actuel</p>
+              <h2 class="h4 text-white fw-semibold mb-3">SecureAuth</h2>
+              <p class="text-muted mb-4">
+                Système de Login/Register sécurisé (PHP/MySQL) avec hash des
+                mots de passe, protection CSRF, rate limiting et journalisation
+                des tentatives.
+              </p>
+              <a href="projects.html" class="btn btn-outline-primary">
+                Découvrir SecureAuth
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4 mt-5 border-top border-secondary-subtle">
+      <div
+        class="container d-flex flex-wrap justify-content-between align-items-center"
+      >
+        <span class="text-muted small"
+          >© <span id="year"></span> MN3 Labs. All rights reserved.</span
+        >
+        <div class="d-flex gap-3 small">
+          <a
+            href="https://github.com/mn3labs"
+            class="text-muted text-decoration-none"
+            >GitHub</a
+          >
+          <!-- Ajoute LinkedIn plus tard si tu veux -->
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JS custom -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
